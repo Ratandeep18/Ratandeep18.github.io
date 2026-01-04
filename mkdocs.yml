@@ -1,0 +1,20 @@
+site_name: Ratandeep Sharma | DevSecOps
+site_url: https://ratandeep18.github.io/Ratandeep18.github.io
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+  palette:
+    primary: deep purple
+nav:
+  - Home: index.md
+  
+plugins:
+  - search
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
