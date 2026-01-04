@@ -13,9 +13,8 @@ DevSecOps with expertise in:
 - AWS EKS / Azure AKS
 
 ## Featured Projects
-- **[Wazuh-Jira Alert Integration](https://github.com/Ratandeep18/wazuh-jira)**  
-  Python automation for security alerts.
-- **[Kyverno Golden Image Policies](https://github.com/Ratandeep18/kyverno-policies)**  
+- **[Wazuh-Jira Alert Integration]**
+- **[Kyverno Golden Image Policies]**  
   Enforce secure container images.
 
 ## 📝 Latest Blog

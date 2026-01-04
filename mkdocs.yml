@@ -1,20 +1,98 @@
 site_name: Ratandeep Sharma | DevSecOps
 site_dir: _site
+site_author: Ratandeep Sharma
+site_url: https://ratandeep18.github.io
+copyright: © 2026 Ratandeep Sharma
+
+# Navy Blue Material Theme
 theme:
   name: material
   features:
-    - navigation.indexes
-    - navigation.instant
-    - navigation.tabs
+    - content.code.annotate          # Inline code comments
+    - navigation.indexes             # Index pages in sidebar
+    - navigation.instant             # Instant nav loading
+    - navigation.tabs                # Tabbed navigation
+    - navigation.sections            # Collapsible sections
+    - navigation.top                 # Top nav bar
+    - search.highlight               # Search result highlighting
+    - search.share                   # Share search results
+    - toc.follow                     # TOC scrolls with content
   palette:
-    primary: deep purple
-nav:
-  - Home: index.md
-  
+    # Light mode - Navy Blue
+    - scheme: default
+      primary: navy                  # Primary color: Navy blue
+      accent: navy                   # Accent color: Navy blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode - Navy Blue
+    - scheme: slate
+      primary: navy                  # Navy in dark mode
+      accent: navy
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
 plugins:
   - search
+  - mermaid2
 
+# Markdown Extensions (pro features)
 markdown_extensions:
+  # Core
+  - abbr
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  
+  # Supercharged Markdown
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  
+  # Code highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  
+  # Advanced blocks
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Social & SEO
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ratandeep18
+      name: GitHub
+
+# Navigation
+nav:
+  - Home: index.md
+  - Blog: blog/
+  # - About: about.md
+  - Resume: resume.md
