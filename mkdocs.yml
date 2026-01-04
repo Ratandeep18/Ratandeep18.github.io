@@ -1,5 +1,5 @@
 site_name: Ratandeep Sharma | DevSecOps
-site_url: https://ratandeep18.github.io/Ratandeep18.github.io
+site_dir: _site
 theme:
   name: material
   features:
@@ -13,7 +13,7 @@ nav:
   
 plugins:
   - search
-  
+
 markdown_extensions:
   - admonition
   - pymdownx.details
