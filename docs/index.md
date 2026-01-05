@@ -18,3 +18,4 @@ DevSecOps with expertise in:
   Enforce secure container images.
 
 ## 📝 Latest Blog
+- [Kyverno Golden Image Validator](./blog/blog-1.md)

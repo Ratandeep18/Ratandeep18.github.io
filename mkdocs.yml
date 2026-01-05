@@ -94,3 +94,5 @@ extra:
 nav:
   - Home: index.md
   - Resume: resume.md
+  - Blog:
+    - Kyverno Golden Image Validator: "./blog/blog-1.md"
