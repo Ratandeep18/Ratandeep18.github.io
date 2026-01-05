@@ -53,6 +53,7 @@ IAM least-privilege | S3 encryption automation
 
 ### Senior Linux Admin
 **Mar 2017 - Jun 2020**
+
 Enterprise hardening → Security incidents ↓50%
 SSH | Firewalls | Backup automation
 
