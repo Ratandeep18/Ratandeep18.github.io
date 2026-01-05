@@ -7,12 +7,9 @@ hide:
 
 # Ratandeep Sharma { align=center }
 
-<div class="resume-header">
 
 **DevSecOps Engineer**  
 [ratandeepsharma4@gmail.com](mailto:ratandeepsharma4@gmail.com)
-
-</div>
 
 ## Personal Profile
 
