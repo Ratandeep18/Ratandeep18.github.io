@@ -37,7 +37,7 @@ Policy-as-code | Reusable modules
 ## Professional Experience
 
 ### DevSecOps Engineer
-**Jul 2020 - Present**
+**Jan 2021 - Present**
 
 **Kubernetes Security**
 Production K3s/AKS | Zero-trust policies
