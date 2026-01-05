@@ -19,8 +19,8 @@ hide:
 ## Technical Expertise
 
 ### Cloud & Infrastructure
-| AWS | Azure |
-|-----|-------|
+| AWS                                          | Azure                    |
+| -------------------------------------------- | ------------------------ |
 | EC2, VPC, IAM, Lambda, RDS, S3, Security Hub | VMs, VNets, App Services |
 
 ### Containers & Orchestration
@@ -60,18 +60,20 @@ SSH | Firewalls | Backup automation
 
 !!! success "SANS Hall of Fame"
     **Critical vuln discovery** + CTF coins:
+
     - SEC510: Cloud Security (AWS/Azure/GCP)
     - SEC504: Hacker Tools & IR
 
-!!! Wazuh MISP integration contributed to Official Wazuh Integrations Repo.
+!!! success "Wazuh MISP integration"
+    - contributed to Official Wazuh Integrations Repo.
 
 ## Certifications
-| Cert | Provider | Year |
-|------|----------|------|
-| SEC510 Cloud Security | SANS | 2025 |
-| SEC504 Hacker Tools | SANS | 2025 |
-| AZ-104 Azure Admin | Microsoft | 2024 |
-| AWS Security Champion | AWS | 2024 |
+| Cert                  | Provider  |
+| --------------------- | --------- |
+| SEC510 Cloud Security | SANS      |
+| SEC504 Hacker Tools   | SANS      |
+| AZ-104 Azure Admin    | Microsoft |
+| AWS Security Champion | AWS       |
 
 ## Education
 **B.Tech ECE** | BPIT, GGSIPU | **2013-2017**
